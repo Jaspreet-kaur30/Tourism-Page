@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wanderlust Adventures</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.2/css/bootstrap.min.css">
+  <style>
+    body {
+      background-color: #f8f9fa;
+    }
+
+    .navbar {
+      background-color: #0d6efd;
+    }
+
+    .navbar-brand,
+    .navbar-nav .nav-link {
+      color: #fff;
+      font-weight: bold;
+    }
+
+    .hero {
+      background-image: url('hero-bg.jpg');
+      background-size: cover;
+      background-position: center;
+      height: 400px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: #fff;
+    }
+
+    .hero h1 {
+      font-size: 48px;
+      margin-bottom: 20px;
+    }
+
+    .hero p {
+      font-size: 24px;
+      margin-bottom: 40px;
+    }
+
+    .package {
+      background-color: #fff;
+      border-radius: 10px;
+      padding: 20px;
+      margin-bottom: 30px;
+    }
+
+    .package h3 {
+      color: #0d6efd;
+      font-size: 24px;
+      margin-top: 20px;
+    }
+
+    .package p {
+      color: #6c757d;
+    }
+
+    .newsletter {
+      background-color: #0d6efd;
+      color: #fff;
+      padding: 50px;
+      text-align: center;
+    }
+
+    .newsletter h2 {
+      font-size: 36px;
+      margin-bottom: 20px;
+    }
+
+    .newsletter p {
+      font-size: 18px;
+      margin-bottom: 30px;
+    }
+
+    .contact {
+      background-color: #fff;
+      border-radius: 10px;
+      padding: 50px;
+      margin-bottom: 30px;
+    }
+
+    .contact h2 {
+      color: #0d6efd;
+      font-size: 36px;
+      margin-bottom: 20px;
+    }
+
+    .contact p {
+      color: #6c757d;
+      font-size: 18px;
+      margin-bottom: 30px;
+    }
+
+    .footer {
+      background-color: #0d6efd;
+      color: #fff;
+      text-align: center;
+      padding: 20px 0;
+    }
+
+    .footer p {
+      font-size: 16px;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          Wanderlust Adventures
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Packages</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="hero">
+      <h1>Explore the World</h1>
+      <p>Find your perfect adventure with us</p>
+      <a class="btn btn-primary btn-lg" href="#">Get Started</a>
+    </div>
+  </header>
+
+  <section class="packages">
+    <div class="container">
+      <h2 class="text-center">Featured Packages</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="package">
+            <img src="package1.jpg" alt="Package 1">
+            <h3>Package 1</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut hendrerit justo et mollis vulputate.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="package">
+            <img src="package2.jpg" alt="Package 2">
+            <h3>Package 2</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut hendrerit justo et mollis vulputate.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="package">
+            <img src="package3.jpg" alt="Package 3">
+            <h3>Package 3</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut hendrerit justo et mollis vulputate.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="newsletter">
+    <div class="container">
+      <h2>Subscribe to Our Newsletter</h2>
+      <p>Stay updated with our latest offers and travel tips!</p>
+      <form>
+        <input type="email" placeholder="Enter your email" required>
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>
+  </section>
+
+  <section class="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <p>Have any questions or inquiries? Feel free to reach out to us!</p>
+      <form>
+        <input type="text" placeholder="Name" required>
+        <input type="email" placeholder="Email" required>
+        <textarea placeholder="Message" required></textarea>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2023 Wanderlust Adventures. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.2/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
